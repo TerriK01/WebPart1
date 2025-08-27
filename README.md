@@ -88,7 +88,8 @@ Images and media: Included in website development
 - Marketing (optional): R1500/month for social media campaigns 
 9. References 
 
-- Colour palette and typography references from canva. 
-- Market research on jewellery e-commerce trends and websites such as lovisa. 
+- American Swiss Bespoke Jewellery & Personalised Creations | American Swiss | Fine Jeweller since 1896 (27August 2025). https://www.americanswissonline.co.za/design-studio.
+- Color Hunt - color palettes for designers and artists (27 August 2025). https://colorhunt.co/.
+- Lovisa (27 August 2025) On-Trend Jewellery & Accessories - Lovisa. https://www.lovisajewellery.co.za/?gclsrc=aw.ds&&utm_source=Google&utm_medium=cpc&utm_campaign=G_Lovisa_ZA_Brand_Pure_Exact&gad_source=1&gad_campaignid=21679550614&gbraid=0AAAAACcwrsl9pFvftQ5uWR2tOnMGJwKAK&gclid=CjwKCAjw2brFBhBOEiwAVJX5GP5wxVYhM2ea0HNDR6_HdFrH7WFnx2YgLGzVO6U8n5J1I7W9Z-r-rxoCbY4QAvD_BwE. 
 
 Sitemap 
