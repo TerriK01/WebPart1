@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - Gemstone Haven</title>
+
+  <style>
+    body { font-family:Arial,sans-serif; margin:0; padding:0; }
+    .header { display:flex; justify-content:space-between; align-items:center; background:#f8f8f8; padding:10px 20px; border-bottom:2px solid #ccc; }
+    .logo img { height:60px; }
+    .navbar ul { list-style:none; display:flex; gap:20px; margin:0; padding:0; }
+    .navbar ul li { display:inline; }
+    .navbar ul li a { text-decoration:none; color:#333; font-weight:bold; }
+    .navbar ul li a:hover { color:#d4af37; }
+    h1 { text-align:center; margin:20px 0; }
+    .big-box { display:flex; justify-content:center; gap:20px; flex-wrap:wrap; padding:20px; }
+    .plan-container { border:1px solid #ccc; border-radius:10px; padding:15px; text-align:center; width:250px; background:#fafafa; }
+    .plan-container img { width:90%; border-radius:10px; }
+    .plan-text { font-size:18px; font-weight:bold; margin:10px 0; }
+    .plan2-price { font-size:16px; color:#d4af37; }
+    .plan-sign-up a { text-decoration:none; background:#d4af37; color:#fff; padding:10px 15px; border-radius:5px; display:inline-block; margin-top:10px; }
+    .plan-sign-up a:hover { background:#333; }
+    .footer-distributed { background:#333; color:#fff; padding:20px; display:flex; justify-content:space-between; flex-wrap:wrap; }
+    .footer-right a { margin:0 10px; color:#fff; font-size:18px; }
+    .footer-links a { color:#fff; margin:0 10px; text-decoration:none; }
+    .footer-links a:hover { color:#d4af37; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo"><img src="images/Logo.jpg" alt="Logo"></div>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Enquiry.html">Enquiry</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h1>Shop Our Collection</h1>
+
+  <section class="big-box">
+    <section class="plan-container">
+      <img src="Images/Gold6.jpg" alt="Eternal Hoops">
+      <p class="plan-text">Eternal Hoops</p>
+      <p class="plan2-price">R399</p>
+      <button class="plan-sign-up"><a href="#">ADD TO CART</a></button>
+    </section>
+
+    <section class="plan-container">
+      <img src="Images/Gold.jpg" alt="Golden Elegance">
+      <p class="plan-text">Golden Elegance</p>
+      <p class="plan2-price">R499</p>
+      <button class="plan-sign-up"><a href="#">ADD TO CART</a></button>
+    </section>
+
+    <section class="plan-container">
+      <img src="Images/Gold5.jpg" alt="Radiant Charm">
+      <p class="plan-text">Radiant Charm</p>
+      <p class="plan2-price">R599</p>
+      <button class="plan-sign-up"><a href="#">ADD TO CART</a></button>
+    </section>
+  </section>
+
+  <footer class="footer-distributed">
+    <div class="footer-right">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="footer-left">
+      <p class="footer-links">
+        <a href="index.html">Home</a> |
+        <a href="Products.html">Our Products</a> |
+        <a href="AboutUs.html">About Us</a> |
+        <a href="Contact.html">Contact Us</a>
+      </p>
+      <p>Gemstone Haven &copy; 2025</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gemstone Haven</title>
+ 
+
+  <style>
+    body { font-family: Verdana, sans-serif; margin:0; padding:0; }
+    .header { display:flex; align-items:center; justify-content:space-between; padding:10px 30px; background:#fff; border-bottom:2px solid #eee; }
+    .header .logo img { height:60px; }
+    .navbar ul { list-style:none; display:flex; gap:20px; margin:0; padding:0; }
+    .navbar ul li { font-size:18px; font-family:"Cinzel", serif; }
+    .navbar ul li a { text-decoration:none; color:#000; font-weight:bold; }
+    .navbar ul li a:hover { color:#d4af37; }
+
+    /* Banner */
+    .banner { width:100%; }
+    .banner img { width:100%; height:auto; display:block; }
+
+    /* Video */
+    .video-section { padding:20px; }
+    .video-section video { width:100%; border-radius:8px; }
+
+    /* Gallery */
+    h1 { text-align:center; font-family:"Cinzel", serif; margin:30px 0; }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:15px; padding:0 20px; }
+    .gallery img { width:100%; height:300px; object-fit:cover; border-radius:8px; transition:transform 0.3s; }
+    .gallery img:hover { transform:scale(1.05); }
+
+    /* Contact form */
+    .contact { background:#f9f9f9; padding:30px; }
+    .contact h1 { margin-bottom:20px; }
+    .contact input { width:100%; padding:12px; margin:10px 0; border:1px solid #ccc; border-radius:5px; }
+    .contact input[type=submit] { background:#d4af37; color:#fff; font-weight:bold; cursor:pointer; border:none; }
+    .contact input[type=submit]:hover { background:#b8902e; }
+
+    /* Footer */
+    .footer-distributed {
+      background:#292c2f; color:#fff; padding:40px 20px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;
+    }
+    .footer-links a { color:#fff; margin:0 10px; text-decoration:none; }
+    .footer-links a:hover { text-decoration:underline; }
+    .footer-right a { color:#fff; margin-left:10px; font-size:20px; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo"><img src="images/Logo.jpg" alt="Gemstone Haven Logo"></div>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Enquiry.html">Enquiry</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="Images/Jewellery Banner.jpg" alt="Jewellery Banner">
+  </div>
+
+  <!-- Video -->
+  <div class="video-section">
+    <video controls poster="images/profile.jpg">
+      <source src="Videos/mid - season.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Gallery -->
+  <h1>SHOP BY COLLECTION</h1>
+  <div class="gallery">
+    <a href="Product.html"><img src="Images/Golden Grace.jpg" alt="Golden Grace"></a>
+    <a href="Product.html"><img src="Images/Gold.jpg" alt="Gold"></a>
+    <a href="Product.html"><img src="Images/Gold1.jpg" alt="Gold 1"></a>
+    <a href="Product.html"><img src="Images/RoseGold1.jpg" alt="Rose Gold 1"></a>
+    <a href="Product.html"><img src="Images/RoseGold5.jpg" alt="Rose Gold 5"></a>
+    <a href="Product.html"><img src="Images/RoseGoldEarrings4.jpg" alt="Rose Gold Earrings"></a>
+    <a href="Product.html"><img src="Images/Moonlit Promise.jpg" alt="Moonlit Promise"></a>
+    <a href="Product.html"><img src="Images/Radiant edge.jpg" alt="Radiant Edge"></a>
+    <a href="Product.html"><img src="Images/Charmed Essence.jpg" alt="Charmed Essence"></a>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact">
+    <h1>CONTACT ME</h1>
+    <form>
+      <input name="name" type="text" placeholder="Name" required>
+      <input name="email" type="email" placeholder="Email" required>
+      <input type="submit" value="SUBMIT">
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <p class="footer-links">
+        <a href="index.html">Home</a> |
+        <a href="Products.html">Our Products</a> |
+        <a href="AboutUs.html">About Us</a> |
+        <a href="Contact.html">Contact Us</a>
+      </p>
+      <p>Gemstone Haven &copy; 2025</p>
+    </div>
+    <div class="footer-right">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
